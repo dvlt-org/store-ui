@@ -54,7 +54,7 @@
     font-size: 12px;
 }
 
-.microContainer button {
+.microButton {
     width: 150px;
     padding: 20px 0px;
     background-color: #00FF66;
@@ -118,8 +118,8 @@
     gap: 1rem;
 }
 
-.featuredContainer h1{
-    color:black;
+.featuredContainer h1 {
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -152,3 +152,203 @@
     height: 150%;
 }
 
+/* welcome to register */
+.register {
+    flex-direction: column;
+}
+
+.registerContainer {
+    background-color: white;
+    color: black;
+    gap: 1rem;
+    margin: 10px 0px;
+}
+
+.registerLeft {
+    flex: 1;
+}
+
+.registerLeft img {
+    width: 100%;
+    height: 700px;
+    object-fit: contain;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.registerForm h1 {
+    font-weight: 400;
+}
+
+.registerForm input {
+    border: none;
+    outline: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.registerFormSubmit {
+    background-color: #DB4444;
+    padding: 15px 0px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registerFormLink p {
+    color: #000000;
+}
+
+.registerFormLink span {
+    margin-left: 10px;
+    padding: 2px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.registerFormLink span:hover {
+    border-bottom: 1px solid black;
+}
+
+/* login */
+.login {
+    flex-direction: column;
+}
+
+.loginContainer {
+    background-color: white;
+    color: black;
+    gap: 1rem;
+    margin: 10px 0px;
+}
+
+.loginLeft {
+    flex: 1;
+}
+
+.loginLeft img {
+    width: 100%;
+    height: 700px;
+    object-fit: contain;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginForm h1 {
+    font-weight: 400;
+}
+
+.loginForm input {
+    border: none;
+    outline: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.loginFormSubmit {
+    background-color: #DB4444;
+    padding: 15px 30px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.loginFormLink {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #DB4444;
+}
+
+.loginFormLink p {
+    cursor: pointer;
+}
+
+/* wishlist style start */
+
+.wishlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.wishlistContainer {
+    width: 100%;
+    width: 1170px;
+}
+
+.wishlistMoveHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.wishlistMoveHeader h1 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.wishlistButton {
+    padding: 15px 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+
+}
+
+.wishlistMoveProducts {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.wishlistForYouHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wishlistHeaderLeft {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.wishlistHeaderLeft h1 {
+    font-size: 20px;
+}
+
+.wishlistHeaderLeft div {
+    width: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #DB4444;
+}
+
+.wishlistForYouProducts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    gap: 1.5rem;
+}

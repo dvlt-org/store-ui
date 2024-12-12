@@ -42,7 +42,7 @@ export default function Home() {
                 <p>Seconds</p>
               </div>
             </div>
-            <button>Buy Now!</button>
+            <button className='microButton'>Buy Now!</button>
           </div>
           <div className="micro-right">
             <img src={Microphone} alt={Microphone} />

@@ -44,7 +44,7 @@
 
 .navbarItem::before {
     content: "";
-    height: 2px;
+    height: 1px;
     background-color: #000000;
     position: absolute;
     bottom: -5px;
@@ -545,7 +545,7 @@
     width: 100%;
     height: 30px;
     padding: 5px;
-    border: 1px solid white;
+    border: 2px solid white;
     display: flex;
     align-items: center;
     gap: 10px;
